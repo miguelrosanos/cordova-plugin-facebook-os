@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
-        id="cordova-plugin-facebook4"
+        id="cordova-plugin-facebook-nos"
         version="6.4.0">
 
     <name>Facebook Connect</name>
@@ -11,6 +11,8 @@
 
       The Facebook plugin for Apache Cordova allows you to use the same JavaScript code in your
       Cordova application as you use in your web application.
+	    
+      This version of the plugin has been modified for use with Outsystems Cordova
     </description>
 
     <repo>https://github.com/jeduan/cordova-plugin-facebook4</repo>
