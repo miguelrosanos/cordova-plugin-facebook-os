@@ -789,7 +789,7 @@ void FBMethodSwizzle(Class c, SEL originalSelector) {
         return NO;
     }
     // Required by FBSDKCoreKit for deep linking/to complete login
-    [[FBSDKApplicationDelegate sharedInstance] application:application openURL:url sourceApplication:[options valueForKey:@"UIApplicationOpenURLOptionsSourceApplicationKey"] annotation:0x0];
+    //[[FBSDKApplicationDelegate sharedInstance] application:application openURL:url sourceApplication:[options valueForKey:@"UIApplicationOpenURLOptionsSourceApplicationKey"] annotation:0x0];
     
     // NOTE: Cordova will run a JavaScript method here named handleOpenURL. This functionality is deprecated
     // but will cause you to see JavaScript errors if you do not have window.handleOpenURL defined:
@@ -811,7 +811,7 @@ void FBMethodSwizzle(Class c, SEL originalSelector) {
         return NO;
     }
     // Required by FBSDKCoreKit for deep linking/to complete login
-    [[FBSDKApplicationDelegate sharedInstance] application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
+    //[[FBSDKApplicationDelegate sharedInstance] application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 
     // NOTE: Cordova will run a JavaScript method here named handleOpenURL. This functionality is deprecated
     // but will cause you to see JavaScript errors if you do not have window.handleOpenURL defined:
