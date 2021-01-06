@@ -776,7 +776,7 @@ void FBMethodSwizzle(Class c, SEL originalSelector) {
         method_exchangeImplementations(originalMethod, newMethod);
     }
 }
-
+/*
 + (void)load
 {
     FBMethodSwizzle([self class], @selector(application:openURL:sourceApplication:annotation:));
@@ -820,5 +820,5 @@ void FBMethodSwizzle(Class c, SEL originalSelector) {
     
     // Call existing method
     return [self swizzled_application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
-}
+}*/
 @end
