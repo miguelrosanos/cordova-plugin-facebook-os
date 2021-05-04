@@ -83,7 +83,7 @@
 
     <!-- ios -->
     <platform name="ios">
-	<preference name="UseLegacySwiftLanguageVersion" value="true" />
+	<preference name="UseSwiftLanguageVersion" value="5" />
         <js-module src="www/facebook-native.js" name="FacebookConnectPlugin">
             <clobbers target="facebookConnectPlugin" />
         </js-module>
