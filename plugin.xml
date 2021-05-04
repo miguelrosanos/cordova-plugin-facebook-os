@@ -87,7 +87,7 @@
             <clobbers target="facebookConnectPlugin" />
         </js-module>
 
-	<preference name="UseSwiftLanguageVersion" value="5" />
+	<!--<preference name="UseSwiftLanguageVersion" value="5" />-->
 	    
         <config-file target="config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
