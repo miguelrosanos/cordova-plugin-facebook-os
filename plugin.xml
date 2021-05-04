@@ -5,7 +5,9 @@
         version="6.4.0">
 
     <name>Facebook Connect</name>
-
+	
+    <dependency id="cordova-plugin-add-swift-support" version="2.0.2"/>
+	
     <description>
       This is the official plugin for Facebook in Apache Cordova/PhoneGap!
 
@@ -85,7 +87,7 @@
             <clobbers target="facebookConnectPlugin" />
         </js-module>
 
-	<preference name="UseSwiftLanguageVersion" value="5" />
+	<preference name="UseSwiftLanguageVersion" value="5.1" />
 	    
         <config-file target="config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
