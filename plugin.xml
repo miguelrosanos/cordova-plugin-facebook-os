@@ -165,7 +165,7 @@
             <string>fbshareextension</string>
           </array>
         </config-file>
-
+<preference name="UseSwiftLanguageVersion" value="5" />
         <!-- Facebook SDK -->
 		<framework src="FBSDKCoreKit" type="podspec" spec="~> 8.1.0" />
 		<framework src="FBSDKLoginKit" type="podspec" spec="~> 8.1.0" />
