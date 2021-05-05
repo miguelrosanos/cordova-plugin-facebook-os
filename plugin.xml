@@ -167,9 +167,9 @@
         </config-file>
 
         <!-- Facebook SDK -->
-		<framework src="FBSDKCoreKit" type="podspec" spec="~> 7.1.0" />
-		<framework src="FBSDKLoginKit" type="podspec" spec="~> 7.1.0" />
-		<framework src="FBSDKShareKit" type="podspec" spec="~> 7.1.0" />
+		<framework src="FBSDKCoreKit" type="podspec" spec="~> 6.1.0" />
+		<framework src="FBSDKLoginKit" type="podspec" spec="~> 6.1.0" />
+		<framework src="FBSDKShareKit" type="podspec" spec="~> 6.1.0" />
 
     </platform>
 
