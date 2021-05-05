@@ -87,7 +87,7 @@
             <clobbers target="facebookConnectPlugin" />
         </js-module>
 
-	 <preference name="UseSwiftLanguageVersion" value="5" /> 
+	<preference name="UseLegacySwiftLanguageVersion" value="true" />
 	    
         <config-file target="config.xml" parent="/*">
             <feature name="FacebookConnectPlugin">
@@ -167,9 +167,9 @@
         </config-file>
 
         <!-- Facebook SDK -->
-		<framework src="FBSDKCoreKit" type="podspec" spec="~> 5.1.0" />
-		<framework src="FBSDKLoginKit" type="podspec" spec="~> 5.1.0" />
-		<framework src="FBSDKShareKit" type="podspec" spec="~> 5.1.0" />
+		<framework src="FBSDKCoreKit" type="podspec" spec="~> 8.1.0" />
+		<framework src="FBSDKLoginKit" type="podspec" spec="~> 8.1.0" />
+		<framework src="FBSDKShareKit" type="podspec" spec="~> 8.1.0" />
 
     </platform>
 
